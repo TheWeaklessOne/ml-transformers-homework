@@ -1,0 +1,24 @@
+.DS_Store
+.omx/
+.playwright-mcp/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.coverage
+coverage.xml
+.pytest_cache/
+.python-version
+.venv/
+venv/
+env/
+.env
+.ipynb_checkpoints/
+
+# Local ML artifacts
+fine_tuned_model/
+*.pt
+*.bin
+*.safetensors
+
+# Local data (adjust if you want to version small datasets)
+data/
