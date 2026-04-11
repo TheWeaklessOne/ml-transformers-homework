@@ -1,0 +1,14 @@
+{
+  "source_url": "https://ai.stanford.edu/~amaas/data/sentiment/aclImdb_v1.tar.gz",
+  "generated_at_utc": "2026-04-11T21:04:26.235153+00:00",
+  "text_column": "text",
+  "label_column": "label",
+  "labels": {
+    "0": "negative",
+    "1": "positive"
+  },
+  "files": {
+    "train.csv": 25000,
+    "test.csv": 25000
+  }
+}

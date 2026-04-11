@@ -1,0 +1,29 @@
+.DS_Store
+.omx/
+.playwright-mcp/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.coverage
+coverage.xml
+.pytest_cache/
+.python-version
+.venv/
+venv/
+env/
+.env
+.ipynb_checkpoints/
+
+# Local ML artifacts
+fine_tuned_model/
+*.pt
+*.bin
+*.safetensors
+
+# Local data (keep most datasets untracked; IMDb is intentionally versioned for this project)
+data/*
+!data/imdb/
+!data/imdb/README.md
+!data/imdb/train.csv
+!data/imdb/test.csv
+!data/imdb/metadata.json
